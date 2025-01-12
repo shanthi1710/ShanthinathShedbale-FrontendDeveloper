@@ -1,11 +1,11 @@
 import DishCard from "./DishCard";
 
-const FoodGrid = ({ foodItems}) => {
+const FoodGrid = ({ foodItems, onItemClick }) => {
   return (
     <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
       {foodItems.length > 0 ? (
         foodItems.map((item) => (
-          <div key={item.idMeal}>
+          <div key={item.idMeal} onClick={() => onItemClick(item.idMeal)}>
             <DishCard item={item} />
           </div>
         ))
