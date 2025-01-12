@@ -74,7 +74,7 @@ const Body = () => {
         onFilterChange={handleFilterChange}
         onSortChange={handleSortChange}
       />
-      <FoodGrid foodItems={foodItems} onItemClick={handleItemClick} />
+      <FoodGrid foodItems={currentItems} onItemClick={handleItemClick} />
 
       <Pagination
         currentPage={currentPage}
