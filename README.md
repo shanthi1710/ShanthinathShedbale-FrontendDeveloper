@@ -2,6 +2,10 @@
 
 FoodMenu App is a simple React-based application designed to display and manage food menus. This project uses Vite for development and bundling and integrates Tailwind CSS for styling.
 
+- Host Link:-> https://shanthinath-shedbale-frontend-developer.vercel.app/
+- Video Link:-> https://shorturl.at/TGAgk 
+
+---
 ## Table of Contents
 - [Features](#features)
 - [Tech Stack](#tech-stack)
@@ -30,6 +34,7 @@ FoodMenu App is a simple React-based application designed to display and manage 
 - **Styling**: Tailwind CSS
 - **Development Tools**: Vite, ESLint
 - **API**: TheMealDB API for fetching meal data.
+- **Testing**: Jest for unit and integration testing.
 
 ## Getting Started
 
@@ -45,7 +50,7 @@ Ensure you have the following installed:
 1. Clone the repository:
    ```bash
    git clone https://github.com/shanthi1710/ShanthinathShedbale-FrontendDeveloper
-   cd foodmenu-app
+   cd ShanthinathShedbale-FrontendDeveloper
    ```
 
 2. Install dependencies:
