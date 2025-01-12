@@ -1,8 +1,13 @@
+import Header from "./components/Header"
+import Footer from "./components/Footer"
+import Body from "./components/Body"
 function App() {
 
   return (
     <>
-      <h1 className="bg-slate-400 w-auto text-black font-medium text-2xl">Food Menu App</h1>
+      <Header/>
+      <Body/>
+      <Footer/>
     </>
   )
 }
